@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamisetasNGL | Home</title>
+    <link rel="shortcut icon" href="img/0-logo.jpg" type="image/x-icon">
+    <!-- bs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- bs icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- tostify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <img class="imgLogo" src="img/0-logo.jpg" alt="Logo NGL">
+                <form class="d-flex" id="buscador" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar por pais" aria-label="Search">
+                    <button type="submit">Filtrar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- carrusel -->
+    <section>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1500">
+                    <img src="img/1corrediza.png" class="d-block w-100 imgCarusel"
+                        alt="Imagen de camisetas de futbol 1">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="img/2corrediza.png" class="d-block w-100 imgCarusel"
+                        alt="Imagen de camisetas de futbol 2">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="img/3corrediza.png" class="d-block w-100 imgCarusel"
+                        alt="Imagen de camisetas de futbol 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev btn" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+            </button>
+            <button class="carousel-control-next btn" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+            </button>
+        </div>
+    </section>
+
+    <main>
+        <div class="d-flex text-center">
+
+            <div class="col-sm-8 p-3 divProductos">
+                <h1 class="fw-bold"><i class="bi bi-basket"></i> Productos</h1>
+                <div class="contProductos" id="contCamisetas">
+                    <!-- cards dinamicas -->
+                </div>
+            </div>
+
+            <div class="col-4 p-3 divCarrito">
+                <h2 class="fw-bold"><i class="bi bi-credit-card"></i> Carrito</h2>
+                <div class="contCarrito">
+                    <strong class="carritoVacio">Carrito vacío</strong>
+                    <!-- texto dinamico luego para carrito vacio-->
+                </div>
+
+                <div class="ventaCarrito">
+                    <div class="vaciarCarrito">
+                        <button id="vaciarCarritoBtn"><i class="bi bi-cart-x-fill"></i> Vaciar carrito</button>
+                    </div>
+
+                    <div class="comprarCarrito">
+                        <div class="totalCarrito">
+                            <h3 class="fs-5 mb-0 text-white">Total:</h3>
+                            <h3 id="totalPrecio" class="fs-3 fw-bold mb-0 text-white">$0</h3>
+                        </div>
+                        <button id="comprarBtn"><i class="bi bi-cart-check-fill"></i> Comprar</button>
+                    </div>
+                </div>
+
+                <p id="mensajeCompra" class="my-3"></p>
+                <!-- texto dinamico de comprado o sin productos para comprar -->
+            </div>
+
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container text-center pt-3">
+            <div class="row align-items-center">
+                <div class="col">
+                    <p><i class="bi bi-c-circle"></i> Página sin fines de lucro ni especulación</p>
+                </div>
+                <div class="col">
+                    <p>Realiza tu compra por nuestro sitio web con cualquier métedo de pago</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- tostify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- js -->
+    <script src="js/servicios.js"></script>
+    <script src="js/main.js"></script>
+    <!-- bs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

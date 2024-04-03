@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* LOG Y SIGN */
+
+.imgInicio {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* link */
+
+a {
+    text-decoration: none;
+    color: #eaa362;
+}
+
+a:hover {
+    color: #d1853d;
+}
+
+
+/* PRODUCTOS */
+
+/* camisetas */
+.imgLogo {
+    width: 50px;
+}
+
+.imgCarusel {
+    height: 50vh;
+}
+
+
+.contProductos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.imgProductos {
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid #eaa362;
+}
+
+.prodInfo {
+    background-color: #eaa362;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.prodTexto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.sinPais {
+    color: red;
+}
+
+/* carrito */
+
+.contCarrito {
+    display: grid;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.prodCarrito {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.ventaCarrito {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comprarCarrito {
+    display: flex;
+    align-self: center;
+}
+
+.totalCarrito {
+    display: flex;
+    margin-right: 10px;
+    font-size: 110rem;
+    align-items: center;
+}
+
+.divProductos {
+    background-color: white;
+}
+
+.divCarrito {
+    background-color: #eaa362;
+}
+
+/* footer */
+
+footer {
+    border-top: 2px solid #eaa362;
+}
+
+/* header */
+
+nav {
+    background-color: #eaa362;
+}
+
+/* COMPARTIDO */
+
+/* botones */
+
+button {
+    background-color: #d1853d;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background-color: #fda34e;
+}
+
+button:active {
+    background-color: #ff9838;
+}
