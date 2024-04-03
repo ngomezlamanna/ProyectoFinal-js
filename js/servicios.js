@@ -1,6 +1,6 @@
 let camisetas = [];
 
-fetch("../db/db.json")
+fetch("../camis.json")
     .then(response => response.json())
     .then(data => {
         camisetas = data;

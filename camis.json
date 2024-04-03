@@ -1,0 +1,72 @@
+[
+    {
+       "imagen": "img/boca2001.png",
+       "pais": "Argentina",
+       "equipo": "Boca Juniors",
+       "ano": 2000,
+       "precio": 70000
+    },
+    {
+       "imagen": "img/river2012.png",
+       "pais": "Argentina",
+       "equipo": "River Plate",
+       "ano": 2011,
+       "precio": 50000
+    },
+    {
+       "imagen": "img/indpte1995.png",
+       "pais": "Argentina",
+       "equipo": "Independiente",
+       "ano": 1976,
+       "precio": 65000
+    },
+    {
+       "imagen": "img/santos2013.png",
+       "pais": "Brasil",
+       "equipo": "Santos",
+       "ano": 2013,
+       "precio": 90000
+    },
+    {
+       "imagen": "img/flamengo2019.png",
+       "pais": "Brasil",
+       "equipo": "Flamengo",
+       "ano": 2019,
+       "precio": 45000
+    },
+    {
+       "imagen": "img/penarol1997.png",
+       "pais": "Uruguay",
+       "equipo": "Peñarol",
+       "ano": 1997,
+       "precio": 30000
+    },
+    {
+       "imagen": "img/colo2007.png",
+       "pais": "Chile",
+       "equipo": "Colo Colo",
+       "ano": 2001,
+       "precio": 20000
+    },
+    {
+       "imagen": "img/manu2009.png",
+       "pais": "Inglaterra",
+       "equipo": "Manchester United",
+       "ano": 2005,
+       "precio": 40000
+    },
+    {
+       "imagen": "img/chelsea2011.png",
+       "pais": "Inglaterra",
+       "equipo": "Chelsea",
+       "ano": 2014,
+       "precio": 60000
+    },
+    {
+       "imagen": "img/realm2019.png",
+       "pais": "España",
+       "equipo": "Real Madrid",
+       "ano": 2024,
+       "precio": 75000
+    }
+ ]
